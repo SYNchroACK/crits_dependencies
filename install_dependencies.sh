@@ -48,7 +48,7 @@ then
 	echo "Installing libpcap-dev..."
 	sudo apt-get -y install libpcap-dev
 	echo "Installing Python requirements..."
-	sudo apt-get -y install python-simplejson python-pycurl python-dev python-pydot python-pyparsing python-yaml python-setuptools python-numpy python-matplotlib python-lxml
+	sudo apt-get -y install python-simplejson python-pycurl python-dev python-pydot python-pyparsing python-yaml python-setuptools python-numpy python-matplotlib python-lxml python-magic
 	if [ "$VER" == '10.04' ]
 	then
 		echo "Installing importlib 1.0.2..."
